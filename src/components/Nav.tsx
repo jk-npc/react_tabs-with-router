@@ -11,7 +11,7 @@ export const Nav = () => (
           to="/"
           end
           className={({ isActive }) =>
-            'navbar-item' + (isActive ? 'is-active' : '')
+            'navbar-item' + (isActive ? ' is-active' : '')
           }
         >
           Home
@@ -19,9 +19,8 @@ export const Nav = () => (
 
         <NavLink
           to="/tabs"
-          end
           className={({ isActive }) =>
-            'navbar-item' + (isActive ? 'is-active' : '')
+            'navbar-item' + (isActive ? ' is-active' : '')
           }
         >
           Tabs
